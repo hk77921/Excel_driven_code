@@ -1,0 +1,33 @@
+{
+  "ORD_ICICIBANK_1766767090549": {
+    "order_id": "ORD_ICICIBANK_1766767090549",
+    "symbol": "ICICIBANK",
+    "side": "BUY",
+    "req_qty": 44,
+    "price": 1034.9852294921875,
+    "created_at": "2025-12-26T22:08:10.549385",
+    "status": "FILLED",
+    "filled_qty": 44,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 22.485018351567728,
+    "sector": "UNKNOWN",
+    "fill_price": 1034.9852294921875
+  },
+  "ORD_ICICIBANK_1766767128590": {
+    "order_id": "ORD_ICICIBANK_1766767128590",
+    "symbol": "ICICIBANK",
+    "side": "BUY",
+    "req_qty": 30,
+    "price": 1125.993408203125,
+    "created_at": "2025-12-26T22:08:48.590062",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 32.878935034050315,
+    "sector": "UNKNOWN"
+  }
+}

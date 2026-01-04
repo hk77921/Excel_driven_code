@@ -1,0 +1,15 @@
+{
+  "RELAXO": {
+    "symbol": "RELAXO",
+    "side": "BUY",
+    "entry_price": 578.3870239257812,
+    "quantity": 3,
+    "qty_remaining": 0,
+    "atr": 14.210015233497794,
+    "stop_loss": 549.9669934587856,
+    "target": 621.0170696262746,
+    "entry_time": "2025-12-28T16:28:42.967456",
+    "partial_exit_done": false,
+    "status": "CLOSED"
+  }
+}

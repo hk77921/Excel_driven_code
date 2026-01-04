@@ -1,0 +1,18 @@
+{
+  "ORD_ICICIBANK_1766920041464": {
+    "order_id": "ORD_ICICIBANK_1766920041464",
+    "symbol": "ICICIBANK",
+    "side": "BUY",
+    "req_qty": 2,
+    "price": 1254.4207763671875,
+    "created_at": "2025-12-28T16:37:21.464254",
+    "status": "FILLED",
+    "filled_qty": 2,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 20.343031509500786,
+    "sector": "UNKNOWN",
+    "fill_price": 1254.4207763671875
+  }
+}

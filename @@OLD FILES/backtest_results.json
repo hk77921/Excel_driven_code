@@ -1,0 +1,60 @@
+{
+  "1d_3m": {
+    "error": "No trades executed",
+    "timeframe": "Daily - 3 Months",
+    "interval": "1d",
+    "period": "3mo"
+  },
+  "1d_6m": {
+    "capital": {
+      "initial": 100000,
+      "final": 99743.25889856872,
+      "total_return": -256.741101431282,
+      "total_return_pct": -0.256741101431282
+    },
+    "trades": {
+      "total": 9,
+      "winning": 5,
+      "losing": 4,
+      "win_rate": 55.55555555555556
+    },
+    "pnl": {
+      "avg_win": 388.5561608924154,
+      "avg_loss": -549.8804764733396,
+      "profit_factor": 0.883274133008917,
+      "avg_r_multiple": -0.12792010763106854
+    },
+    "timeframe": "Daily - 6 Months",
+    "interval": "1d",
+    "period": "6mo"
+  },
+  "1d_1y": {
+    "capital": {
+      "initial": 100000,
+      "final": 98850.21481192955,
+      "total_return": -1149.7851880704548,
+      "total_return_pct": -1.1497851880704548
+    },
+    "trades": {
+      "total": 40,
+      "winning": 26,
+      "losing": 14,
+      "win_rate": 65.0
+    },
+    "pnl": {
+      "avg_win": 302.2862558841413,
+      "avg_loss": -643.516274361294,
+      "profit_factor": 0.8723769441338269,
+      "avg_r_multiple": -1.9864208475525238
+    },
+    "timeframe": "Daily - 1 Year",
+    "interval": "1d",
+    "period": "1y"
+  },
+  "1h_1m": {
+    "error": "No data"
+  },
+  "15m_1w": {
+    "error": "No data"
+  }
+}

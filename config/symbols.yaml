@@ -1,0 +1,29 @@
+# SYMBOLS CONFIGURATION
+# List of tradable symbols with their metadata.
+# Set 'enabled: true' to include in screener.
+
+symbols:
+  # Example symbols - update with your universe
+  SBIN:
+    sector: FINANCIALS
+    enabled: true
+  
+  INFY:
+    sector: IT
+    enabled: true
+  
+  TCS:
+    sector: IT
+    enabled: true
+  
+  MARUTI:
+    sector: AUTO
+    enabled: true
+  
+  WIPRO:
+    sector: IT
+    enabled: true
+  
+  ASIANPAINT:
+    sector: CHEMICALS
+    enabled: false  # Disabled for now

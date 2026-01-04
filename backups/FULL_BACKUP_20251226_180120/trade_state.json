@@ -1,0 +1,11 @@
+{
+  "TEST": {
+    "symbol": "TEST",
+    "side": "BUY",
+    "entry": 500.0,
+    "sl": 480.0,
+    "qty": 10,
+    "qty_remaining": 10,
+    "atr": 5.0
+  }
+}

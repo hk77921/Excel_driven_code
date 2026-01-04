@@ -1,0 +1,26 @@
+{
+  "251229170658068": {
+    "order_id": "251229170658068",
+    "symbol": "IDEA",
+    "side": "BUY",
+    "req_qty": 109,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  },
+  "ORD_IDEA_1766987189137": {
+    "order_id": "ORD_IDEA_1766987189137",
+    "symbol": "IDEA",
+    "side": "BUY",
+    "req_qty": 109,
+    "price": 11.9399995803833,
+    "created_at": "2025-12-29T11:16:29.137449",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 0.4586942059751499,
+    "sector": "TELECOM"
+  }
+}

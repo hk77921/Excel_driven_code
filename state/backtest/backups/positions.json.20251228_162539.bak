@@ -1,0 +1,15 @@
+{
+  "ICICIBANK": {
+    "symbol": "ICICIBANK",
+    "side": "BUY",
+    "entry_price": 1254.4207763671875,
+    "quantity": 2,
+    "qty_remaining": 0,
+    "atr": 20.343031509500786,
+    "stop_loss": 1213.734713348186,
+    "target": 1315.4498708956899,
+    "entry_time": "2025-12-28T16:25:39.101529",
+    "partial_exit_done": false,
+    "status": "CLOSED"
+  }
+}

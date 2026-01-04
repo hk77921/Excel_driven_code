@@ -1,0 +1,33 @@
+{
+  "ORD_HDFCBANK_1766817499776": {
+    "order_id": "ORD_HDFCBANK_1766817499776",
+    "symbol": "HDFCBANK",
+    "side": "BUY",
+    "req_qty": 83,
+    "price": 822.9125366210938,
+    "created_at": "2025-12-27T12:08:19.776523",
+    "status": "FILLED",
+    "filled_qty": 83,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 12.02115278203837,
+    "sector": "UNKNOWN",
+    "fill_price": 822.9125366210938
+  },
+  "ORD_AXISBANK_1766817499961": {
+    "order_id": "ORD_AXISBANK_1766817499961",
+    "symbol": "AXISBANK",
+    "side": "BUY",
+    "req_qty": 23,
+    "price": 1087.4805908203125,
+    "created_at": "2025-12-27T12:08:19.961891",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 42.2146404102181,
+    "sector": "UNKNOWN"
+  }
+}

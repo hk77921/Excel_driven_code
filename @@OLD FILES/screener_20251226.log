@@ -1,0 +1,72 @@
+2025-12-26 11:56:31,134 | INFO | ============================================================
+2025-12-26 11:56:31,134 | INFO | STARTING SCREENER
+2025-12-26 11:56:31,134 | INFO | ============================================================
+2025-12-26 11:56:31,309 | ERROR | SCREENER_RULES missing RULE or VALUE columns
+2025-12-26 11:56:31,323 | INFO | Loaded 100 enabled stocks
+2025-12-26 11:56:31,390 | INFO |  Market Trend: BULLISH
+2025-12-26 11:56:31,421 | INFO | Fetching fresh data for 1 symbols...
+2025-12-26 11:56:33,387 | ERROR | 
+1 Failed download:
+2025-12-26 11:56:33,388 | ERROR | ['TV18BRDCST.NS']: YFPricesMissingError('possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-12-26 11:56:33,405 | ERROR | Bulk download failed: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-12-26 11:56:33,865 | INFO |  Passed: 0, Rejected: 99
+2025-12-26 11:56:33,865 | WARNING |  No eligible stocks today
+2025-12-26 11:56:33,996 | INFO |  Excel updated → 0 stocks selected
+2025-12-26 11:57:55,518 | INFO | ============================================================
+2025-12-26 11:57:55,518 | INFO | STARTING SCREENER
+2025-12-26 11:57:55,519 | INFO | ============================================================
+2025-12-26 11:57:55,689 | ERROR | SCREENER_RULES missing RULE or VALUE columns
+2025-12-26 11:57:55,701 | INFO | Loaded 100 enabled stocks
+2025-12-26 11:57:55,723 | INFO |  Market Trend: BULLISH
+2025-12-26 11:57:55,756 | INFO | Fetching fresh data for 1 symbols...
+2025-12-26 11:57:58,429 | ERROR | 
+1 Failed download:
+2025-12-26 11:57:58,429 | ERROR | ['TV18BRDCST.NS']: YFPricesMissingError('possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-12-26 11:57:58,437 | ERROR | Bulk download failed: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-12-26 11:57:58,752 | INFO |  Passed: 0, Rejected: 99
+2025-12-26 11:57:58,753 | WARNING |  No eligible stocks today
+2025-12-26 11:57:58,840 | INFO |  Excel updated → 0 stocks selected
+2025-12-26 13:33:11,273 | INFO | ============================================================
+2025-12-26 13:33:11,274 | INFO | STARTING SCREENER
+2025-12-26 13:33:11,274 | INFO | ============================================================
+2025-12-26 13:33:11,718 | ERROR | SCREENER_RULES missing RULE or VALUE columns
+2025-12-26 13:33:11,744 | INFO | Loaded 100 enabled stocks
+2025-12-26 13:33:11,835 | INFO |  Market Trend: BULLISH
+2025-12-26 13:33:15,227 | INFO | Fetching fresh data for 1 symbols...
+2025-12-26 13:33:17,385 | ERROR | 
+1 Failed download:
+2025-12-26 13:33:17,385 | ERROR | ['TV18BRDCST.NS']: YFPricesMissingError('possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-12-26 13:33:17,400 | ERROR | Bulk download failed: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-12-26 13:33:17,974 | INFO |  Passed: 0, Rejected: 99
+2025-12-26 13:33:17,975 | WARNING |  No eligible stocks today
+2025-12-26 13:33:17,976 | ERROR | Failed to write Excel: [Errno 13] Permission denied: 'MiniRobo.xlsx'
+2025-12-26 13:33:17,981 | INFO | Saved backup to: screener_output_20251226_133317.csv
+2025-12-26 13:33:32,635 | INFO | ============================================================
+2025-12-26 13:33:32,635 | INFO | STARTING SCREENER
+2025-12-26 13:33:32,635 | INFO | ============================================================
+2025-12-26 13:33:32,952 | ERROR | SCREENER_RULES missing RULE or VALUE columns
+2025-12-26 13:33:32,978 | INFO | Loaded 100 enabled stocks
+2025-12-26 13:33:33,010 | INFO |  Market Trend: BULLISH
+2025-12-26 13:33:33,073 | INFO | Fetching fresh data for 1 symbols...
+2025-12-26 13:33:34,890 | ERROR | 
+1 Failed download:
+2025-12-26 13:33:34,891 | ERROR | ['TV18BRDCST.NS']: YFPricesMissingError('possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-12-26 13:33:34,895 | ERROR | Bulk download failed: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-12-26 13:33:35,372 | INFO |  Passed: 0, Rejected: 99
+2025-12-26 13:33:35,373 | WARNING |  No eligible stocks today
+2025-12-26 13:33:35,669 | INFO |  Excel updated → 0 stocks selected
+2025-12-26 15:07:40,005 | INFO | ============================================================
+2025-12-26 15:07:40,006 | INFO | STARTING SCREENER
+2025-12-26 15:07:40,006 | INFO | ============================================================
+2025-12-26 15:07:40,322 | ERROR | SCREENER_RULES missing RULE or VALUE columns
+2025-12-26 15:07:40,349 | INFO | Loaded 100 enabled stocks
+2025-12-26 15:07:40,499 | INFO |  Market Trend: BULLISH
+2025-12-26 15:07:44,824 | INFO | Fetching fresh data for 1 symbols...
+2025-12-26 15:07:46,613 | ERROR | 
+1 Failed download:
+2025-12-26 15:07:46,613 | ERROR | ['TV18BRDCST.NS']: YFPricesMissingError('possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-12-26 15:07:46,617 | WARNING | yf.download returned no data for requested symbols
+2025-12-26 15:07:46,617 | INFO | Successfully fetched 0 new symbols
+2025-12-26 15:07:47,163 | INFO |  Passed: 0, Rejected: 99
+2025-12-26 15:07:47,163 | WARNING |  No eligible stocks today
+2025-12-26 15:07:47,394 | INFO |  Excel updated → 0 stocks selected

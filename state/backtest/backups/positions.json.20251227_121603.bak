@@ -1,0 +1,16 @@
+{
+  "AXISBANK": {
+    "symbol": "AXISBANK",
+    "side": "BUY",
+    "entry_price": 1087.4805908203125,
+    "quantity": 23,
+    "qty_remaining": 0,
+    "atr": 42.2146404102181,
+    "stop_loss": 1121.749816728423,
+    "target": 1214.1245120509668,
+    "entry_time": "2025-12-27T12:16:02.855394",
+    "partial_exit_done": true,
+    "status": "CLOSED",
+    "trailing_sl": 1121.749816728423
+  }
+}

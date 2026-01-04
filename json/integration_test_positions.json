@@ -1,0 +1,38 @@
+{
+  "SBIN": {
+    "symbol": "SBIN",
+    "side": "BUY",
+    "entry": 500.0,
+    "sl": 476.0,
+    "qty": 20,
+    "qty_remaining": 20,
+    "atr": 16.0,
+    "entry_time": "2025-12-26T20:39:08.849995",
+    "exit_pending": false,
+    "realized_pnl": 0.0
+  },
+  "RELIANCE": {
+    "symbol": "RELIANCE",
+    "side": "BUY",
+    "entry": 2500.0,
+    "sl": 2395.0,
+    "qty": 4,
+    "qty_remaining": 4,
+    "atr": 69.99999999999999,
+    "entry_time": "2025-12-26T20:39:08.850132",
+    "exit_pending": false,
+    "realized_pnl": 0.0
+  },
+  "TCS": {
+    "symbol": "TCS",
+    "side": "BUY",
+    "entry": 3500.0,
+    "sl": 3368.75,
+    "qty": 3,
+    "qty_remaining": 3,
+    "atr": 87.5,
+    "entry_time": "2025-12-26T20:39:08.850243",
+    "exit_pending": false,
+    "realized_pnl": 0.0
+  }
+}

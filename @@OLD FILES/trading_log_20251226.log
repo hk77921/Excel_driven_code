@@ -1,0 +1,252 @@
+2025-12-26 11:53:15,384 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 11:53:15,386 | INFO | ============================================================
+2025-12-26 11:53:15,386 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 11:53:15,386 | INFO | Loading state for reconciliation...
+2025-12-26 11:53:15,390 | INFO | State reconciled with broker positions
+2025-12-26 11:53:15,390 | INFO | ============================================================
+2025-12-26 11:53:15,392 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 11:53:15,578 | ERROR | Missing columns in Excel: ['ATR_PCT']
+2025-12-26 11:53:15,581 | INFO | Transaction committed successfully
+2025-12-26 11:56:42,543 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 11:56:42,545 | INFO | ============================================================
+2025-12-26 11:56:42,545 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 11:56:42,546 | INFO | Loading state for reconciliation...
+2025-12-26 11:56:42,549 | INFO | State reconciled with broker positions
+2025-12-26 11:56:42,550 | INFO | ============================================================
+2025-12-26 11:56:42,553 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 11:56:42,751 | ERROR | Missing columns in Excel: ['ATR_PCT']
+2025-12-26 11:56:42,754 | INFO | Transaction committed successfully
+2025-12-26 11:57:36,973 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 11:57:36,974 | INFO | ============================================================
+2025-12-26 11:57:36,975 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 11:57:36,975 | INFO | Loading state for reconciliation...
+2025-12-26 11:57:36,978 | INFO | State reconciled with broker positions
+2025-12-26 11:57:36,978 | INFO | ============================================================
+2025-12-26 11:57:36,981 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 11:57:37,186 | WARNING | No eligible stocks to trade
+2025-12-26 11:57:37,188 | INFO | Transaction committed successfully
+2025-12-26 11:58:04,555 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 11:58:04,556 | INFO | ============================================================
+2025-12-26 11:58:04,557 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 11:58:04,557 | INFO | Loading state for reconciliation...
+2025-12-26 11:58:04,559 | INFO | State reconciled with broker positions
+2025-12-26 11:58:04,559 | INFO | ============================================================
+2025-12-26 11:58:04,562 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 11:58:04,759 | WARNING | No eligible stocks to trade
+2025-12-26 11:58:04,762 | INFO | Transaction committed successfully
+2025-12-26 13:34:22,811 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 13:34:22,818 | INFO | ============================================================
+2025-12-26 13:34:22,819 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 13:34:22,819 | INFO | Loading state for reconciliation...
+2025-12-26 13:34:22,826 | INFO | State reconciled with broker positions
+2025-12-26 13:34:22,827 | INFO | ============================================================
+2025-12-26 13:34:22,871 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 13:34:23,588 | WARNING | No eligible stocks to trade
+2025-12-26 13:34:23,595 | INFO | Transaction committed successfully
+2025-12-26 13:35:00,510 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 13:35:00,513 | INFO | ============================================================
+2025-12-26 13:35:00,513 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 13:35:00,514 | INFO | Loading state for reconciliation...
+2025-12-26 13:35:00,518 | INFO | State reconciled with broker positions
+2025-12-26 13:35:00,519 | INFO | ============================================================
+2025-12-26 13:35:00,523 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 13:35:00,936 | INFO | Open positions: 0, Pending orders: 0
+2025-12-26 13:35:00,937 | ERROR | Kite not initialized for order polling
+2025-12-26 13:35:00,937 | ERROR | Kite not initialized for order polling
+2025-12-26 13:35:00,938 | INFO | Total P&L: +0.00% (Realized: +0.00, Unrealized: +0.00)
+2025-12-26 13:35:00,938 | INFO | Capital | Total: 5000.00, Allocated: 0.00, Available: 5000.00Available: ₹5,000.00
+2025-12-26 13:35:00,938 | INFO | Unrealized P&L: +0.00 (Realized: +0.00, Trades: 0)
+2025-12-26 13:35:00,940 | CRITICAL | CRITICAL ERROR in execution cycle: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 13:35:01,071 | CRITICAL | Fatal error: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1522, in <module>
+    run_execution()
+    ~~~~~~~~~~~~~^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 13:41:36,223 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 13:41:36,226 | INFO | ============================================================
+2025-12-26 13:41:36,227 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 13:41:36,227 | INFO | Loading state for reconciliation...
+2025-12-26 13:41:36,241 | INFO | State reconciled with broker positions
+2025-12-26 13:41:36,241 | INFO | ============================================================
+2025-12-26 13:41:36,266 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 13:41:36,573 | INFO | Open positions: 0, Pending orders: 0
+2025-12-26 13:41:36,573 | ERROR | Kite not initialized for order polling
+2025-12-26 13:41:36,573 | ERROR | Kite not initialized for order polling
+2025-12-26 13:41:36,573 | INFO | Total P&L: +0.00% (Realized: +0.00, Unrealized: +0.00)
+2025-12-26 13:41:36,574 | INFO | Capital | Total: 5000.00, Allocated: 0.00, Available: 5000.00Available: ₹5,000.00
+2025-12-26 13:41:36,574 | INFO | Unrealized P&L: +0.00 (Realized: +0.00, Trades: 0)
+2025-12-26 13:41:36,575 | CRITICAL | CRITICAL ERROR in execution cycle: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 13:41:36,711 | CRITICAL | Fatal error: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1522, in <module>
+    run_execution()
+    ~~~~~~~~~~~~~^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 13:42:28,720 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 13:42:28,723 | INFO | ============================================================
+2025-12-26 13:42:28,724 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 13:42:28,724 | INFO | Loading state for reconciliation...
+2025-12-26 13:42:28,729 | INFO | State reconciled with broker positions
+2025-12-26 13:42:28,730 | INFO | ============================================================
+2025-12-26 13:42:28,734 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 13:42:29,059 | INFO | Open positions: 0, Pending orders: 0
+2025-12-26 13:42:29,060 | ERROR | Kite not initialized for order polling
+2025-12-26 13:42:29,060 | ERROR | Kite not initialized for order polling
+2025-12-26 13:42:29,061 | INFO | Total P&L: +0.00% (Realized: +0.00, Unrealized: +0.00)
+2025-12-26 13:42:29,061 | INFO | Capital | Total: 5000.00, Allocated: 0.00, Available: 5000.00Available: ₹5,000.00
+2025-12-26 13:42:29,061 | INFO | Unrealized P&L: +0.00 (Realized: +0.00, Trades: 0)
+2025-12-26 13:42:29,063 | CRITICAL | CRITICAL ERROR in execution cycle: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 13:42:29,070 | CRITICAL | Fatal error: 'ATR_PCT'
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ATR_PCT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1522, in <module>
+    run_execution()
+    ~~~~~~~~~~~~~^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\execution_engine.py", line 1416, in run_execution
+    atr = row["ATR_PCT"] * price / 100
+          ~~~^^^^^^^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "D:\Experimentals\TradingBot\Excel_driven_code\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ATR_PCT'
+2025-12-26 15:09:14,734 | ERROR | Failed to initialize Kite: Incorrect `api_key` or `access_token`.
+2025-12-26 15:09:14,737 | INFO | ============================================================
+2025-12-26 15:09:14,737 | INFO | Starting execution cycle | Mode: LIVE
+2025-12-26 15:09:14,738 | INFO | Loading state for reconciliation...
+2025-12-26 15:09:14,743 | INFO | State reconciled with broker positions
+2025-12-26 15:09:14,743 | INFO | ============================================================
+2025-12-26 15:09:14,767 | INFO | Daily P&L: +0.00% (Realized: +0.00, Trades: 0)
+2025-12-26 15:09:15,041 | WARNING | No eligible stocks to trade
+2025-12-26 15:09:15,046 | INFO | Transaction committed successfully

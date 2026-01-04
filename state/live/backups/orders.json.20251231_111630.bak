@@ -1,0 +1,35 @@
+{
+  "251229170658068": {
+    "order_id": "251229170658068",
+    "symbol": "IDEA",
+    "side": "BUY",
+    "req_qty": 109,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  },
+  "251229170770484": {
+    "order_id": "251229170770484",
+    "symbol": "IDEA",
+    "side": "BUY",
+    "req_qty": 109,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  },
+  "ORD_RAYMOND_1767159713821": {
+    "order_id": "ORD_RAYMOND_1767159713821",
+    "symbol": "RAYMOND",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 417.20001220703125,
+    "created_at": "2025-12-31T11:11:53.821453",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 12.328337102448481,
+    "sector": "INFRA"
+  }
+}

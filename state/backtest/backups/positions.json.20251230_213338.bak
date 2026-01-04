@@ -1,0 +1,15 @@
+{
+  "BDL": {
+    "symbol": "BDL",
+    "side": "BUY",
+    "entry_price": 1127.8131103515625,
+    "quantity": 1,
+    "qty_remaining": 1,
+    "atr": 41.922124060321345,
+    "stop_loss": 1043.95,
+    "target": 1253.6,
+    "entry_time": "2025-12-30T21:33:38.150282",
+    "partial_exit_done": false,
+    "status": "OPEN"
+  }
+}

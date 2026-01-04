@@ -1,0 +1,15 @@
+{
+  "RAYMOND": {
+    "symbol": "RAYMOND",
+    "side": "BUY",
+    "entry_price": 418,
+    "quantity": 3,
+    "qty_remaining": 3,
+    "atr": 0,
+    "stop_loss": null,
+    "target": null,
+    "partial_exit_done": false,
+    "status": "OPEN",
+    "sector": null
+  }
+}

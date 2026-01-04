@@ -1,0 +1,33 @@
+{
+  "ORD_RELAXO_1766919522708": {
+    "order_id": "ORD_RELAXO_1766919522708",
+    "symbol": "RELAXO",
+    "side": "BUY",
+    "req_qty": 3,
+    "price": 614.0114135742188,
+    "created_at": "2025-12-28T16:28:42.708845",
+    "status": "FILLED",
+    "filled_qty": 3,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 13.100383473890892,
+    "sector": "UNKNOWN",
+    "fill_price": 614.0114135742188
+  },
+  "ORD_BDL_1766919522728": {
+    "order_id": "ORD_BDL_1766919522728",
+    "symbol": "BDL",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 1127.8131103515625,
+    "created_at": "2025-12-28T16:28:42.728255",
+    "status": "FILLED",
+    "filled_qty": 1,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": "2025-12-28T16:28:42.818079",
+    "atr": 41.922124060321345,
+    "sector": "UNKNOWN"
+  }
+}

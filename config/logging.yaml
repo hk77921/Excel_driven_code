@@ -1,0 +1,48 @@
+# LOGGING CONFIGURATION
+# =====================
+# Centralized logging configuration for all application modules
+# Supports multiple handlers, formatting, and log levels
+
+logging:
+  # Global log level - controls verbosity across all modules
+  level: "INFO"  # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  
+  # Log format - consistent formatting across all log outputs
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+  
+  # Console logging configuration
+  console_enabled: true
+  #console_level: "INFO"
+  
+  # File logging configuration
+  file_enabled: true
+  file_path: "logs/trading_bot.log"
+  file_level: "INFO"
+  
+  # Log rotation settings
+  max_file_size_mb: 10
+  backup_count: 5
+  
+  # Special settings
+  unicode_support: true  # Support for ₹ and other Unicode characters
+  
+  # Module-specific log levels (optional overrides)
+  module_levels:
+    "config.enhanced_config_manager": "INFO"
+    "src.execution": "INFO"
+    "src.strategies": "INFO"  
+    "src.broker": "WARNING"  # Reduce broker noise
+    "requests": "WARNING"    # Reduce HTTP noise
+    "urllib3": "WARNING"     # Reduce HTTP connection noise
+  
+  # Performance logging
+  performance_logging:
+    enabled: true
+    log_trade_execution_times: true
+    log_config_load_times: false
+    
+  # Error logging
+  error_logging:
+    capture_stack_traces: true
+    log_to_separate_file: true
+    error_log_file: "logs/errors.log"

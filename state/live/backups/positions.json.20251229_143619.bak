@@ -1,0 +1,41 @@
+{
+  "IDEA": {
+    "symbol": "IDEA",
+    "side": "BUY",
+    "entry_price": 11.91,
+    "quantity": 106,
+    "qty_remaining": 106,
+    "atr": 0,
+    "stop_loss": null,
+    "target": null,
+    "partial_exit_done": false,
+    "status": "OPEN",
+    "sector": null
+  },
+  "INFY": {
+    "symbol": "INFY",
+    "side": "BUY",
+    "entry_price": 1643.1,
+    "quantity": 1,
+    "qty_remaining": 1,
+    "atr": 0,
+    "stop_loss": null,
+    "target": null,
+    "partial_exit_done": false,
+    "status": "OPEN",
+    "sector": null
+  },
+  "RAYMOND": {
+    "symbol": "RAYMOND",
+    "side": "BUY",
+    "entry_price": 417.375,
+    "quantity": 3,
+    "qty_remaining": 3,
+    "atr": 0,
+    "stop_loss": null,
+    "target": null,
+    "partial_exit_done": false,
+    "status": "OPEN",
+    "sector": null
+  }
+}

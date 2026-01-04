@@ -1,0 +1,26 @@
+{
+  "260101170503048": {
+    "order_id": "260101170503048",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  },
+  "ORD_INDUSTOWER_1767244992935": {
+    "order_id": "ORD_INDUSTOWER_1767244992935",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 418.75,
+    "created_at": "2026-01-01T10:53:12.935655",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 9.730565952101838,
+    "sector": "TELECOM"
+  }
+}

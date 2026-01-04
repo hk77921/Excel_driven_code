@@ -1,0 +1,60 @@
+# BROKER CONFIGURATION
+# ====================
+# Centralized broker settings for all trading operations
+# Supports multiple brokers with unified configuration
+
+broker:
+  # Primary broker selection
+  name: "zerodha"  # zerodha | paper | other
+  
+  # API Configuration (DO NOT commit real credentials!)
+  # Set these in environment variables or .env file for security:
+  # KITE_API_KEY=your_api_key
+  # KITE_ACCESS_TOKEN=your_access_token  
+  # KITE_API_SECRET=your_api_secret
+  api_key: null          # Will be loaded from KITE_API_KEY env var
+  access_token: null     # Will be loaded from KITE_ACCESS_TOKEN env var
+  api_secret: null       # Will be loaded from KITE_API_SECRET env var
+  
+  # Trading Configuration
+  product_type: "MIS"    # MIS=Intraday | CNC=Delivery | NRML=Normal
+  order_type: "MARKET"   # MARKET | LIMIT
+  exchange: "NSE"        # NSE | BSE
+  
+  # API Rate Limiting (Zerodha: 10 requests/second)
+  max_requests_per_second: 10
+  request_timeout_seconds: 30
+  retry_attempts: 3
+  retry_delay_seconds: 1.0
+  
+  # Order Management
+  max_slippage_pct: 0.2        # 0.2% maximum slippage tolerance
+  order_timeout_seconds: 300    # 5 minutes order timeout
+  
+  # Connection Settings
+  base_url: "https://api.kite.trade"
+  websocket_url: "wss://ws.kite.trade"
+  
+  # Error Handling
+  auto_retry_on_failure: true
+  max_consecutive_failures: 5
+  failure_cooldown_minutes: 2
+  
+  # Validation Settings
+  validate_orders_before_placement: true
+  check_account_balance: true
+  verify_instrument_tokens: true
+  
+  # Paper Trading Configuration (for PAPER mode)
+  paper_trading:
+    simulate_network_delays: true
+    simulate_partial_fills: true
+    simulate_order_rejections: false
+    default_fill_delay_ms: 100
+    
+  # Live Trading Safety (for LIVE mode)
+  live_trading:
+    require_2fa: false
+    max_daily_orders: 100
+    confirm_before_placement: false
+    enable_kill_switch: true

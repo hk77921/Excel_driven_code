@@ -1,0 +1,115 @@
+# Trading Configuration with Timing Intelligence
+# ============================================
+
+# Existing capital and trade parameters remain unchanged
+capital:
+  total_capital: 5000.0
+  risk_per_trade_pct: 0.5
+  max_open_positions: 5
+  sector_diversification:
+    max_positions_per_sector: 2
+    max_sector_exposure_pct: 40.0
+  safety_buffer_pct: 15.0
+
+trade:
+  sl_atr_mult: 0.8
+  target_atr_mult: 2.5
+  partial_exit_ratio: 0.8
+  partial_exit_qty_pct: 0.5
+  trailing_sl_atr_mult: 1.5
+  order_timeout_seconds: 300
+
+# TIMING INTELLIGENCE CONFIGURATION
+# =================================
+# Set enabled: true for production trading with timing restrictions
+# Set enabled: false for testing and paper mode without timing restrictions
+timing:
+  enabled: False  # CHANGE TO true FOR PRODUCTION TRADING
+  
+  # Market regime detection
+  regime_detection:
+    index_symbol: "^NSEI"  # NIFTY for Indian markets
+    lookback_days: 30
+    update_frequency_hours: 1
+    
+    # Regime thresholds
+    bull_threshold: 0.02      # 2% above 20-day MA
+    bear_threshold: -0.02     # 2% below 20-day MA  
+    volatility_threshold: 0.025  # 2.5% daily volatility
+  
+  # Entry timing controls
+  entry_timing:
+    max_daily_entries: 10
+    min_signal_score_override: false  # Let regime rules decide
+    
+    # Market hours (IST)
+    market_open: "09:15"
+    market_close: "15:30"
+    pre_close_buffer: "15:15"  # Stop entries 15 min before close
+  
+  # Regime-specific settings
+  regime_rules:
+    bull_market:
+      min_signal_score: 35
+      max_entries_per_window: 3
+      entry_windows:
+        - name: "MARKET_OPEN"
+          start: "09:20"
+          end: "10:00"
+        - name: "MID_MORNING"
+          start: "10:00"
+          end: "14:00"
+        - name: "AFTERNOON"
+          start: "14:00"
+          end: "15:25"
+    
+    bear_market:
+      min_signal_score: 50
+      max_entries_per_window: 1
+      entry_windows:
+        - name: "LATE_MORNING"
+          start: "11:00"
+          end: "11:30"
+        - name: "AFTERNOON"
+          start: "14:30"
+          end: "15:00"
+    
+    sideways_market:
+      min_signal_score: 40
+      max_entries_per_window: 2
+      entry_windows:
+        - name: "MARKET_OPEN"
+          start: "09:25"
+          end: "10:30"
+        - name: "MID_MORNING"
+          start: "10:00"
+          end: "14:00"
+        - name: "AFTERNOON"
+          start: "14:00"
+          end: "15:20"
+    
+    high_volatility:
+      min_signal_score: 60
+      max_entries_per_window: 1
+      entry_windows:
+        - name: "MID_MORNING"
+          start: "11:00"
+          end: "11:30"
+        - name: "LATE_AFTERNOON"
+          start: "14:45"
+          end: "15:00"
+
+# Signal quality filters
+signal_quality:
+  enabled: true
+  min_price: 10.0
+  max_price: 10000.0
+  min_volume_ratio: 1.1
+  min_atr_pct: 0.5  # Minimum ATR as % of price
+  
+# Logging and monitoring
+logging:
+  timing_decisions: true
+  regime_changes: true
+  entry_rejections: true
+  daily_summary: true

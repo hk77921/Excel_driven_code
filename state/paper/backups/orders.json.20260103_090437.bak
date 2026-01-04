@@ -1,0 +1,32 @@
+{
+  "ORD_BEL_1767147526360": {
+    "order_id": "ORD_BEL_1767147526360",
+    "symbol": "BEL",
+    "side": "BUY",
+    "req_qty": 6,
+    "price": 393.29998779296875,
+    "created_at": "2025-12-31T07:48:46.360632",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 7.453889506574264,
+    "sector": "INFRA"
+  },
+  "ORD_HINDALCO_1767147605717": {
+    "order_id": "ORD_HINDALCO_1767147605717",
+    "symbol": "HINDALCO",
+    "side": "BUY",
+    "req_qty": 2,
+    "price": 884.1500244140625,
+    "created_at": "2025-12-31T07:50:05.717832",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 16.671314019722683,
+    "sector": "METAL"
+  }
+}

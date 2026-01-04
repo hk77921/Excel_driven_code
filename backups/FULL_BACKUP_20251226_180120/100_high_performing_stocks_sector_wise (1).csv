@@ -1,0 +1,101 @@
+Stock Name,NSE Symbol,Sector,Market Cap,ROE (%),ROCE (%),P/E Ratio,Sales Growth (%)
+HDFC Bank,HDFCBANK,Banking & Financial Services,₹15.33 lakh cr,18.5,16.2,19.60,24.10
+ICICI Bank,ICICIBANK,Banking & Financial Services,₹9.74 lakh cr,17.8,15.8,17.40,21.30
+Kotak Mahindra Bank,KOTAKBANK,Banking & Financial Services,₹3.65 lakh cr,15.2,14.1,17.80,20.50
+Axis Bank,AXISBANK,Banking & Financial Services,₹3.52 lakh cr,16.4,13.9,13.20,18.70
+State Bank of India,SBIN,Banking & Financial Services,₹8.97 lakh cr,19.2,16.5,8.90,22.40
+TCS,TCS,Information Technology,₹11.96 lakh cr,48.5,64.6,23.90,16.20
+Infosys,INFY,Information Technology,₹6.75 lakh cr,31.2,52.3,16.70,15.80
+HCL Technologies,HCLTECH,Information Technology,₹4.39 lakh cr,28.4,42.1,19.30,14.50
+Wipro,WIPRO,Information Technology,₹2.86 lakh cr,19.7,28.6,10.50,13.20
+Tech Mahindra,TECHM,Information Technology,₹1.37 lakh cr,15.8,22.3,12.40,16.70
+Sun Pharma,SUNPHARMA,Pharmaceuticals,₹4.29 lakh cr,18.9,25.4,38.30,12.80
+Cipla,CIPLA,Pharmaceuticals,₹1.14 lakh cr,16.2,22.1,14.20,15.30
+Dr Reddy's Labs,DRREDDY,Pharmaceuticals,₹1.19 lakh cr,17.5,21.8,18.60,14.90
+Lupin,LUPIN,Pharmaceuticals,"₹87,234 cr",15.3,19.7,11.30,17.20
+Torrent Pharma,TORNTPHARM,Pharmaceuticals,"₹75,890 cr",19.8,24.6,15.80,13.60
+Hindustan Unilever,HINDUNILVR,FMCG,₹5.41 lakh cr,82.4,89.2,60.50,8.90
+ITC,ITC,FMCG,₹5.78 lakh cr,28.5,31.4,22.40,11.30
+Nestle India,NESTLEIND,FMCG,₹2.62 lakh cr,94.2,95.7,81.20,6.40
+Britannia Industries,BRITANNIA,FMCG,₹1.45 lakh cr,45.6,53.0,62.70,10.20
+Dabur India,DABUR,FMCG,"₹95,432 cr",22.4,28.6,52.30,8.70
+Maruti Suzuki,MARUTI,Automobile & Auto Components,₹5.21 lakh cr,19.8,28.4,26.70,18.90
+Mahindra & Mahindra,M&M,Automobile & Auto Components,₹3.87 lakh cr,24.5,32.1,28.40,22.30
+Bajaj Auto,BAJAJ-AUTO,Automobile & Auto Components,₹2.89 lakh cr,28.7,35.6,32.10,19.40
+Tata Motors,TATAMOTORS,Automobile & Auto Components,₹3.45 lakh cr,18.3,24.8,9.70,28.50
+Eicher Motors,EICHERMOT,Automobile & Auto Components,₹1.23 lakh cr,22.6,29.4,33.20,16.80
+Reliance Industries,RELIANCE,Oil & Gas,₹21.26 lakh cr,15.8,18.2,29.40,15.60
+ONGC,ONGC,Oil & Gas,₹3.34 lakh cr,14.2,22.4,5.80,18.20
+BPCL,BPCL,Oil & Gas,₹1.12 lakh cr,16.5,24.1,8.60,12.40
+Indian Oil Corp,IOC,Oil & Gas,₹1.23 lakh cr,12.8,18.5,6.70,14.30
+GAIL India,GAIL,Oil & Gas,₹1.18 lakh cr,15.3,21.2,9.20,11.80
+Tata Steel,TATASTEEL,Metals & Mining,₹1.67 lakh cr,8.9,15.4,32.40,9.80
+Hindalco Industries,HINDALCO,Metals & Mining,₹1.24 lakh cr,12.4,18.7,18.60,12.30
+JSW Steel,JSWSTEEL,Metals & Mining,₹2.17 lakh cr,11.8,17.2,22.30,10.90
+Coal India,COALINDIA,Metals & Mining,₹2.48 lakh cr,42.6,48.0,7.90,8.20
+Vedanta,VEDL,Metals & Mining,₹1.73 lakh cr,16.2,24.5,11.40,13.70
+UltraTech Cement,ULTRACEMCO,Cement & Construction Materials,₹3.21 lakh cr,18.9,22.4,27.80,14.60
+Shree Cement,SHREECEM,Cement & Construction Materials,"₹98,765 cr",16.4,19.8,25.60,15.20
+Ambuja Cements,AMBUJACEM,Cement & Construction Materials,₹1.45 lakh cr,14.7,17.5,34.20,12.80
+ACC,ACC,Cement & Construction Materials,"₹43,210 cr",13.2,15.9,28.90,13.50
+Dalmia Bharat,DALBHARAT,Cement & Construction Materials,"₹32,456 cr",15.8,18.3,18.40,16.30
+Power Grid Corp,POWERGRID,Power & Energy,₹3.12 lakh cr,16.8,18.4,14.30,11.90
+NTPC,NTPC,Power & Energy,₹3.89 lakh cr,18.2,21.6,19.80,9.70
+Adani Green Energy,ADANIGREEN,Power & Energy,₹2.56 lakh cr,8.4,12.1,128.40,32.50
+Tata Power,TATAPOWER,Power & Energy,₹1.18 lakh cr,15.6,19.3,22.70,18.40
+JSW Energy,JSWENERGY,Power & Energy,"₹87,543 cr",16.9,20.8,18.20,21.60
+Bharti Airtel,BHARTIARTL,Telecommunications,₹12.77 lakh cr,22.4,28.5,33.80,28.70
+Reliance Jio (Jio Financial),JIOFIN,Telecommunications,₹2.34 lakh cr,18.7,24.2,42.10,31.20
+Vodafone Idea,IDEA,Telecommunications,"₹56,789 cr",-12.4,-8.3,N/A,N/A
+Indus Towers,INDUSTOWER,Telecommunications,₹1.15 lakh cr,24.6,32.4,18.90,15.30
+Tata Communications,TATACOMM,Telecommunications,"₹52,341 cr",16.8,22.1,24.50,14.70
+UPL,UPL,Chemicals,"₹42,567 cr",11.8,15.3,14.20,12.60
+SRF,SRF,Chemicals,"₹78,234 cr",18.4,22.7,38.70,16.90
+Pidilite Industries,PIDILITIND,Chemicals,₹1.67 lakh cr,28.6,35.4,78.90,11.20
+Asian Paints,ASIANPAINT,Chemicals,₹2.89 lakh cr,26.7,32.8,62.40,10.80
+Aarti Industries,AARTIIND,Chemicals,"₹28,945 cr",14.2,18.6,18.30,15.40
+Larsen & Toubro,LT,Capital Goods & Engineering,₹5.58 lakh cr,17.8,21.4,28.90,14.30
+Siemens,SIEMENS,Capital Goods & Engineering,₹2.34 lakh cr,22.4,28.7,68.40,12.50
+ABB India,ABB,Capital Goods & Engineering,₹1.78 lakh cr,28.9,34.5,87.60,11.80
+Bharat Heavy Electricals,BHEL,Capital Goods & Engineering,₹1.12 lakh cr,12.6,16.8,18.70,22.40
+Cummins India,CUMMINSIND,Capital Goods & Engineering,"₹87,654 cr",24.3,29.8,42.30,13.90
+Apollo Hospitals,APOLLOHOSP,Healthcare Services,"₹78,945 cr",16.8,21.3,68.40,18.90
+Max Healthcare,MAXHEALTH,Healthcare Services,"₹67,234 cr",18.4,23.6,78.20,22.30
+Narayana Hrudayalaya,NH,Healthcare Services,"₹23,456 cr",14.2,18.7,38.60,16.70
+Fortis Healthcare,FORTIS,Healthcare Services,"₹45,678 cr",12.8,16.9,42.10,19.40
+Medanta (Global Health),MEDANTA,Healthcare Services,"₹34,567 cr",15.6,19.8,52.30,21.50
+DLF,DLF,Real Estate,₹2.12 lakh cr,15.8,19.4,82.60,24.30
+Godrej Properties,GODREJPROP,Real Estate,"₹87,654 cr",12.4,16.8,98.70,28.50
+Oberoi Realty,OBEROIRLTY,Real Estate,"₹56,789 cr",18.9,22.6,128.40,19.80
+Prestige Estates,PRESTIGE,Real Estate,"₹43,210 cr",14.2,18.3,68.90,22.10
+Brigade Enterprises,BRIGADE,Real Estate,"₹28,945 cr",13.7,17.2,42.30,20.60
+Titan Company,TITAN,Consumer Durables,₹3.12 lakh cr,24.6,29.8,89.70,15.20
+Havells India,HAVELLS,Consumer Durables,"₹98,765 cr",22.3,27.4,68.40,12.80
+Voltas,VOLTAS,Consumer Durables,"₹54,321 cr",18.4,23.6,38.20,14.60
+Blue Star,BLUESTARCO,Consumer Durables,"₹32,456 cr",20.8,25.3,46.70,16.90
+Crompton Greaves Consumer,CROMPTON,Consumer Durables,"₹28,234 cr",19.2,24.1,52.30,13.40
+Page Industries,PAGEIND,Textiles & Apparel,"₹41,234 cr",52.3,59.4,53.50,12.60
+Aditya Birla Fashion,ABFRL,Textiles & Apparel,"₹34,567 cr",8.4,12.3,N/A,28.40
+Raymond,RAYMOND,Textiles & Apparel,"₹18,945 cr",14.6,18.9,24.70,15.30
+Grasim Industries,GRASIM,Textiles & Apparel,₹1.23 lakh cr,16.8,21.4,18.60,11.90
+Trident,TRIDENT,Textiles & Apparel,"₹12,345 cr",15.2,19.6,12.80,14.20
+Zee Entertainment,ZEEL,Media & Entertainment,"₹28,945 cr",8.2,11.6,18.40,22.30
+PVR Inox,PVRINOX,Media & Entertainment,"₹34,567 cr",6.4,10.2,N/A,N/A
+Sun TV Network,SUNTV,Media & Entertainment,"₹56,789 cr",24.6,31.4,18.90,9.80
+TV18 Broadcast,TV18BRDCST,Media & Entertainment,"₹12,345 cr",4.2,8.7,N/A,N/A
+Saregama India,SAREGAMA,Media & Entertainment,"₹9,876 cr",22.8,28.3,68.40,16.70
+Mahindra Logistics,MAHLOG,Logistics & Transportation,"₹8,765 cr",14.2,18.6,42.30,19.40
+Blue Dart Express,BLUEDART,Logistics & Transportation,"₹18,234 cr",18.9,24.7,58.60,14.80
+VRL Logistics,VRLLOG,Logistics & Transportation,"₹6,543 cr",16.4,21.2,28.40,12.60
+TCI Express,TCIEXP,Logistics & Transportation,"₹5,432 cr",20.8,26.4,48.70,15.30
+CONCOR,CONCOR,Logistics & Transportation,"₹45,678 cr",15.6,19.8,22.10,11.40
+Avenue Supermarts (DMart),DMART,Retail,₹2.89 lakh cr,18.4,24.6,128.40,22.70
+Trent,TRENT,Retail,₹1.67 lakh cr,22.8,29.3,186.70,34.50
+V-Mart Retail,VMART,Retail,"₹6,789 cr",16.2,21.4,38.90,18.20
+Shoppers Stop,SHOPERSTOP,Retail,"₹4,567 cr",12.8,17.3,N/A,28.60
+Relaxo Footwears,RELAXO,Retail,"₹12,345 cr",15.6,20.1,42.30,14.90
+Hindustan Aeronautics,HAL,Defense & Aerospace,₹2.78 lakh cr,28.9,34.6,38.70,24.30
+Bharat Electronics,BEL,Defense & Aerospace,₹2.34 lakh cr,24.6,31.2,42.10,19.80
+Bharat Dynamics,BDL,Defense & Aerospace,"₹43,210 cr",22.4,28.7,58.60,21.40
+Mazagon Dock,MAZDOCK,Defense & Aerospace,"₹56,789 cr",36.8,43.2,43.90,18.60
+Solar Industries,SOLARINDS,Defense & Aerospace,"₹67,234 cr",26.4,32.8,78.40,22.90

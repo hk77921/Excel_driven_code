@@ -1,0 +1,15 @@
+{
+  "SAREGAMA": {
+    "symbol": "SAREGAMA",
+    "side": "BUY",
+    "entry_price": 350.95,
+    "quantity": 1,
+    "qty_remaining": 1,
+    "atr": 0,
+    "stop_loss": null,
+    "target": null,
+    "partial_exit_done": false,
+    "status": "OPEN",
+    "sector": null
+  }
+}

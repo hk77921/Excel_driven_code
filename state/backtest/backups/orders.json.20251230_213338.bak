@@ -1,0 +1,18 @@
+{
+  "ORD_BDL_1767110618121": {
+    "order_id": "ORD_BDL_1767110618121",
+    "symbol": "BDL",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 1127.8131103515625,
+    "created_at": "2025-12-30T21:33:38.121771",
+    "status": "FILLED",
+    "filled_qty": 1,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 41.922124060321345,
+    "sector": "UNKNOWN",
+    "fill_price": 1127.8131103515625
+  }
+}

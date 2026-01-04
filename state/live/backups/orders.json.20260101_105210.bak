@@ -1,0 +1,32 @@
+{
+  "ORD_INDUSTOWER_1767243377673": {
+    "order_id": "ORD_INDUSTOWER_1767243377673",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 418.75,
+    "created_at": "2026-01-01T10:26:17.673931",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 9.730565952101838,
+    "sector": "TELECOM"
+  },
+  "ORD_SAREGAMA_1767243379791": {
+    "order_id": "ORD_SAREGAMA_1767243379791",
+    "symbol": "SAREGAMA",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 351.0,
+    "created_at": "2026-01-01T10:26:19.791424",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 12.721464416431562,
+    "sector": "TELECOM"
+  }
+}

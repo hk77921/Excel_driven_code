@@ -1,0 +1,61 @@
+# DEFAULT CAPITAL AND TRADING PARAMETERS
+# ====================================
+# All parameters are configured here and can be overridden
+# without changing code. Used by all execution modes.
+
+# EXECUTION MODE - Switch between PAPER and LIVE without code changes!
+# ====================================================================
+execution:
+  mode: PAPER  # PAPER | LIVE | BACKTEST
+  # PAPER: Simulated trading (safe for testing)
+  # LIVE:  Real trading with Zerodha (REAL MONEY - be careful!)
+  
+  # For LIVE mode, set these in .env:
+  # KITE_API_KEY=your_api_key
+  # KITE_ACCESS_TOKEN=your_access_token
+  
+  # Log levels
+  logging_level: INFO  # DEBUG for detailed logs, INFO for normal, WARNING for quiet
+  
+  # Broker configuration
+  broker:
+    name: zerodha
+    product_type: MIS  # MIS=Intraday, CNC=Delivery, NRML=Normal
+    order_type: MARKET  # MARKET or LIMIT
+    max_requests_per_second: 10  # Zerodha rate limit
+    max_retries: 3
+    retry_delay_seconds: 2
+
+# CAPITAL MANAGEMENT
+capital:
+  # Total capital available for trading
+  total: 5000  # ₹5,000 (minimum recommended)
+  
+  # Risk management
+  risk_per_trade: 0.005  # 0.5% per trade
+  max_daily_loss_pct: 0.02  # 2% kill-switch
+  safety_buffer_pct: 0.15  # 15% untouchable reserve
+  
+  # Position limits
+  max_open_positions: 5  # Maximum concurrent positions
+  max_per_sector: 2  # Maximum per sector
+
+# TRADING PARAMETERS
+trading:
+  # Technical indicators
+  atr_period: 14  # ATR period for volatility
+  
+  # Stop loss and target
+  sl_atr_mult: 0.8  # SL at entry - 0.8*ATR
+  target_atr_mult: 2.5 # Target at entry + 2.5*ATR
+  
+  # Partial exits
+  partial_exit_ratio: 0.8  # Exit at +0.8R (80% of risk)
+  partial_exit_qty_pct: 0.5  # Exit 50% of quantity
+  
+  # Trailing stop
+  trailing_sl_atr_mult: 1.5  # Trailing SL at price - 1.5*ATR
+  
+  # Order management
+  order_timeout_seconds: 300  # 5 minutes to fill
+

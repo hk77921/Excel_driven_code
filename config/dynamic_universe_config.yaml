@@ -1,0 +1,61 @@
+# DYNAMIC UNIVERSE CONFIGURATION
+# Settings for live NSE data-driven trading universe
+# Updates automatically during trading hours
+
+gainer_loser_universe:
+  # Universe size configuration
+  max_gainers: 10                    # Top N gainers to consider
+  max_losers: 5                      # Top N losers to consider
+  
+  # Gap filtering (only stocks with significant gaps)
+  min_gap_percentage: 2.0            # Minimum gap size to qualify
+  max_gap_percentage: 8.0            # Maximum gap (risk control)
+  
+  # Data refresh settings
+  refresh_interval_minutes: 15       # How often to update universe
+  trading_hours_only: true           # Only update during market hours
+  
+  # Risk diversification
+  max_stocks_per_sector: 3           # Limit exposure per sector
+  exclude_sectors:                   # Sectors to avoid
+    - "REALTY"                       # High volatility
+    - "PSE"                          # Government stocks
+  
+  # Market cap filters (optional)
+  min_market_cap_cr: 1000           # Minimum market cap in crores
+  prefer_liquid_stocks: true         # Prioritize high-volume stocks
+  
+  # Fallback configuration
+  static_fallback: false             # Use static list if NSE unavailable
+  fallback_symbols:                  # Backup universe
+    - "SBIN"
+    - "INFY"
+    - "TCS"
+    - "MARUTI"
+    - "WIPRO"
+
+# Excel Integration Settings
+excel_integration:
+  enabled: true                      # Auto-update MiniRobo.xlsx with dynamic data
+  excel_file: "MiniRobo.xlsx"        # Excel file to update
+  universe_sheet: "UNIVERSE"         # Sheet name for stock universe
+  
+  # Update behavior
+  merge_with_existing: true          # Keep existing stocks + add dynamic ones
+  max_total_stocks: 150              # Maximum total stocks in Excel
+  preserve_static_stocks: true       # Don't remove manually added stocks
+  
+  # Dynamic stock identification
+  dynamic_marker_column: "SOURCE"    # Column to mark dynamic stocks
+  dynamic_marker_value: "DYNAMIC"    # Value for dynamically added stocks
+  static_marker_value: "MANUAL"      # Value for manually added stocks
+  
+  # Update frequency
+  update_on_universe_refresh: true   # Update Excel when universe refreshes
+  force_update_interval_hours: 4     # Force update every N hours regardless
+
+# Performance tracking for universe effectiveness
+universe_analytics:
+  track_performance: true
+  min_success_rate: 60.0            # Alert if universe performance drops
+  rebalance_threshold: 50.0         # Consider universe changes if below this

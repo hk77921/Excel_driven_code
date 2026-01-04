@@ -1,0 +1,15 @@
+{
+  "HDFCBANK": {
+    "symbol": "HDFCBANK",
+    "side": "BUY",
+    "entry_price": 822.91259765625,
+    "quantity": 83,
+    "qty_remaining": 0,
+    "atr": 12.021153677435146,
+    "stop_loss": 798.8702903013797,
+    "target": 858.9760586885554,
+    "entry_time": "2025-12-27T12:11:55.763396",
+    "partial_exit_done": false,
+    "status": "CLOSED"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ORD_HDFCBANK_1766817692958": {
+    "order_id": "ORD_HDFCBANK_1766817692958",
+    "symbol": "HDFCBANK",
+    "side": "BUY",
+    "req_qty": 83,
+    "price": 822.9125366210938,
+    "created_at": "2025-12-27T12:11:32.959004",
+    "status": "FILLED",
+    "filled_qty": 83,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": "2025-12-27T12:11:32.979902",
+    "atr": 12.02115338564848,
+    "sector": "UNKNOWN"
+  }
+}

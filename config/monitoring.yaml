@@ -1,0 +1,114 @@
+# MONITORING CONFIGURATION
+# ========================
+# System monitoring, alerting, and performance tracking configuration
+# Centralizes all monitoring-related settings
+
+monitoring:
+  # Performance Monitoring
+  track_performance: true
+  performance_window_days: 30
+  
+  # Real-time Monitoring
+  real_time_monitoring: 
+    enabled: true
+    update_interval_seconds: 30
+    
+  # System Health Monitoring
+  health_checks:
+    enabled: true
+    check_interval_minutes: 5
+    max_consecutive_failures: 3
+    
+    # Health check components
+    components:
+      - broker_connection
+      - market_data_feed  
+      - configuration_files
+      - state_persistence
+      - excel_file_access
+  
+  # Alert Configuration
+  alerts:
+    # Daily Loss Alerts
+    daily_loss_alert:
+      enabled: true
+      threshold_pct: 1.5  # Alert when daily loss exceeds 1.5%
+      
+    # System Error Alerts
+    system_error_alert:
+      enabled: true
+      error_types:
+        - broker_connection_failure
+        - configuration_load_failure
+        - trade_execution_failure
+        - data_persistence_failure
+    
+    # Performance Alerts
+    performance_alerts:
+      enabled: true
+      low_win_rate_threshold: 40.0  # Alert if win rate drops below 40%
+      consecutive_losses_threshold: 5  # Alert after 5 consecutive losses
+      
+    # Email Alerts (optional)
+    email:
+      enabled: false
+      smtp_server: null
+      smtp_port: 587
+      username: null
+      password: null  # Use environment variable EMAIL_PASSWORD
+      recipients: []
+      
+    # Console Alerts (always enabled)
+    console:
+      enabled: true
+      color_coding: true
+      
+  # Performance Metrics
+  metrics:
+    # Trade Performance
+    trade_metrics:
+      track_win_loss_ratio: true
+      track_avg_return_per_trade: true
+      track_max_drawdown: true
+      track_sharpe_ratio: true
+      
+    # System Performance  
+    system_metrics:
+      track_execution_times: true
+      track_api_response_times: true
+      track_configuration_load_times: false
+      
+    # Capital Metrics
+    capital_metrics:
+      track_daily_pnl: true
+      track_capital_utilization: true
+      track_risk_per_trade_actual: true
+      
+  # Data Retention
+  data_retention:
+    keep_daily_data_days: 365      # 1 year of daily data
+    keep_trade_data_days: 730      # 2 years of trade data
+    keep_system_logs_days: 90      # 3 months of system logs
+    
+  # Export and Reporting
+  reporting:
+    auto_generate_daily_reports: true
+    auto_generate_weekly_reports: true
+    export_format: "json"  # json | csv | excel
+    
+    # Report Components
+    include_in_reports:
+      - performance_summary
+      - trade_history
+      - capital_breakdown
+      - risk_metrics
+      - system_health
+      
+  # Dashboard Configuration
+  dashboard:
+    enabled: true
+    auto_refresh_seconds: 30
+    show_live_pnl: true
+    show_positions: true
+    show_pending_orders: true
+    show_system_status: true

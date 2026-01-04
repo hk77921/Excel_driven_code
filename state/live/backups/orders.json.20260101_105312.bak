@@ -1,0 +1,11 @@
+{
+  "260101170503048": {
+    "order_id": "260101170503048",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  }
+}

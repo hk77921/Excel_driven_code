@@ -1,0 +1,32 @@
+# Core dependencies for Trading Bot
+PyYAML>=6.0
+pandas>=1.5.0
+numpy>=1.20.0
+yfinance>=0.2.0
+requests>=2.28.0
+
+# Scientific computing (for adaptive strategies)
+scipy>=1.9.0
+
+# Excel integration
+xlwings>=0.29.0
+openpyxl>=3.1.0
+
+# Technical analysis  
+pandas-ta>=0.3.14b0
+
+# Configuration and utilities
+python-dotenv>=1.0.0
+tqdm>=4.64.0
+
+# Optional dependencies for live trading
+kiteconnect>=5.0.0
+
+# NSE data for gainer/loser strategy
+nsetools>=1.0.11
+
+# Development and testing
+pytest>=7.0.0
+
+# Additional utilities
+python-dateutil>=2.8.0

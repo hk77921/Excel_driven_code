@@ -1,0 +1,234 @@
+# ADAPTIVE STRATEGIES CONFIGURATION
+# =================================
+# Configuration for all 4 adaptive strategies that automatically adjust
+# parameters based on NIFTY/BANKNIFTY market conditions.
+
+adaptive_strategies:
+  # Strategy Manager Configuration
+  manager:
+    mode: "AUTO"  # AUTO, ENSEMBLE, GAP_FOCUSED, MOMENTUM_FOCUSED, VOLATILITY_FOCUSED, CORRELATION_FOCUSED, CONSERVATIVE, AGGRESSIVE
+    
+    # Strategy weights (used in ENSEMBLE mode)
+    strategy_weights:
+      gap_weight: 0.25
+      momentum_weight: 0.25
+      volatility_weight: 0.25
+      correlation_weight: 0.25
+    
+    # Strategy selection thresholds
+    selection_thresholds:
+      gap_priority_threshold: 1.0      # Gap size % to prioritize gap strategy
+      momentum_priority_threshold: 80.0 # Momentum score to prioritize momentum
+      volatility_priority_threshold: 30.0  # VIX level to prioritize volatility
+      correlation_priority_threshold: 0.8  # Correlation to prioritize correlation
+    
+    # Risk management
+    risk_management:
+      max_combined_risk_mult: 2.0      # Maximum combined risk multiplier
+      min_confidence_required: 0.6     # Minimum confidence to trade
+    
+    # Strategy switching
+    switching:
+      enable_strategy_switching: true
+      switching_cooldown_minutes: 30   # Minutes between strategy switches
+
+  # Strategy 1: Gap Trading Strategy
+  gap_trading:
+    # Base parameters
+    base_parameters:
+      base_atr_mult: 1.5
+      base_target_mult: 2.0
+      base_partial_exit: 0.8
+    
+    # Gap-specific adjustments
+    gap_adjustments:
+      gap_up_sl_reduction: 0.8         # Tighter SL on gap ups
+      gap_down_sl_increase: 1.2        # Wider SL on gap downs
+      gap_up_target_increase: 1.3      # Higher targets on gap ups
+      gap_down_target_reduction: 0.8   # Lower targets on gap downs
+    
+    # Gap fade parameters
+    fade_parameters:
+      large_gap_fade_threshold: 2.0    # >2% gap
+      fade_entry_delay_minutes: 30     # Wait 30 min before fading
+      fade_sl_mult: 0.5                # Tight SL for fades
+      fade_target_mult: 1.0            # Conservative target for fades
+    
+    # Opening range parameters
+    opening_range:
+      opening_range_minutes: 15        # First 15 minutes
+      or_breakout_confirmation: 0.1    # 0.1% above/below range
+    
+    # Risk scaling based on gap size
+    risk_scaling:
+      small_gap_risk_mult: 1.0         # Normal risk
+      medium_gap_risk_mult: 0.8        # Reduce risk 20%
+      large_gap_risk_mult: 0.6         # Reduce risk 40%
+
+  # Strategy 2: Momentum Adaptive Strategy
+  momentum_adaptive:
+    # Momentum thresholds
+    thresholds:
+      strong_momentum_threshold: 80.0
+      weak_momentum_threshold: 40.0
+    
+    # Position sizing multipliers
+    position_sizing:
+      strong_momentum_size_mult: 1.5   # 50% larger positions
+      moderate_momentum_size_mult: 1.0 # Normal size
+      weak_momentum_size_mult: 0.6     # 40% smaller positions
+    
+    # Target multipliers based on momentum
+    targets:
+      strong_momentum_target_mult: 3.0 # 3R targets in strong momentum
+      moderate_momentum_target_mult: 2.0 # 2R targets normally
+      weak_momentum_target_mult: 1.2   # 1.2R targets in weak momentum
+    
+    # Stop loss adjustments
+    stops:
+      strong_momentum_sl_mult: 1.2     # Wider stops in strong momentum
+      moderate_momentum_sl_mult: 1.0   # Normal stops
+      weak_momentum_sl_mult: 0.8       # Tighter stops in weak momentum
+    
+    # Partial exit adjustments
+    partial_exits:
+      strong_momentum_partial_ratio: 1.2  # Exit at 1.2R in strong momentum
+      moderate_momentum_partial_ratio: 0.8 # Exit at 0.8R normally
+      weak_momentum_partial_ratio: 0.5    # Exit at 0.5R in weak momentum
+    
+    # Divergence parameters
+    divergence:
+      divergence_lookback_periods: 20
+      divergence_threshold: 0.3        # 30% for significant divergence
+    
+    # Sector momentum requirements
+    sector:
+      min_sector_momentum_score: 50.0  # Minimum sector momentum
+      sector_momentum_weight: 0.3      # Weight in final decision
+
+  # Strategy 3: Volatility Regime Strategy
+  volatility_regime:
+    # Volatility measurement periods
+    measurement_periods:
+      short_vol_period: 10             # 10-period volatility
+      medium_vol_period: 20            # 20-period volatility
+      long_vol_period: 50              # 50-period volatility
+    
+    # VIX thresholds for regime classification
+    vix_thresholds:
+      low_vix_threshold: 15.0
+      normal_vix_threshold: 25.0
+      high_vix_threshold: 35.0
+    
+    # Position sizing by volatility regime
+    position_sizing:
+      low_vol_size_mult: 1.4           # Larger positions in low vol
+      normal_vol_size_mult: 1.0        # Normal positions
+      high_vol_size_mult: 0.7          # Smaller positions in high vol
+      extreme_vol_size_mult: 0.4       # Minimal positions in extreme vol
+    
+    # ATR multipliers by volatility regime
+    atr_multipliers:
+      low_vol_atr_sl: 1.2              # Tighter stops in low vol
+      normal_vol_atr_sl: 1.5           # Normal stops
+      high_vol_atr_sl: 2.0             # Wider stops in high vol
+      extreme_vol_atr_sl: 2.5          # Very wide stops in extreme vol
+      
+      low_vol_atr_target: 2.5          # Higher targets in low vol
+      normal_vol_atr_target: 2.0       # Normal targets
+      high_vol_atr_target: 1.5         # Lower targets in high vol
+      extreme_vol_atr_target: 1.2      # Minimal targets in extreme vol
+    
+    # Partial exit ratios by volatility
+    partial_exits:
+      low_vol_partial_ratio: 1.0       # Exit at 1R in low vol
+      normal_vol_partial_ratio: 0.8    # Exit at 0.8R normally
+      high_vol_partial_ratio: 0.6      # Exit at 0.6R in high vol
+      extreme_vol_partial_ratio: 0.4   # Exit at 0.4R in extreme vol
+    
+    # Volatility breakout parameters
+    breakout:
+      vol_expansion_threshold: 1.5     # 50% expansion from average
+      vol_compression_threshold: 0.7   # 30% compression from average
+      vol_breakout_min_score: 50       # Minimum score for vol breakouts
+    
+    # Risk scaling factors
+    risk_scaling:
+      low_vol_risk_mult: 1.2           # Slightly higher risk in low vol
+      normal_vol_risk_mult: 1.0        # Normal risk
+      high_vol_risk_mult: 0.8          # Lower risk in high vol
+      extreme_vol_risk_mult: 0.5       # Minimal risk in extreme vol
+
+  # Strategy 4: Correlation Sync Strategy
+  correlation_sync:
+    # Correlation calculation periods
+    calculation_periods:
+      short_corr_period: 20            # 20-period correlation
+      medium_corr_period: 50           # 50-period correlation
+      long_corr_period: 100            # 100-period correlation
+    
+    # Correlation thresholds
+    thresholds:
+      high_correlation_threshold: 0.7
+      medium_correlation_threshold: 0.3
+      negative_correlation_threshold: -0.3
+    
+    # Position sizing by correlation
+    position_sizing:
+      high_corr_size_mult: 1.2         # Larger positions when highly correlated
+      medium_corr_size_mult: 1.0       # Normal positions
+      low_corr_size_mult: 0.8          # Smaller positions when uncorrelated
+      negative_corr_size_mult: 0.6     # Smallest positions for negative correlation
+    
+    # Entry timing by correlation
+    entry_timing:
+      high_corr_index_alignment: true  # Require index alignment for high correlation
+      low_corr_divergence_play: true   # Play divergences in low correlation
+    
+    # Beta adjustments
+    beta_adjustments:
+      high_beta_threshold: 1.5         # High beta stocks
+      low_beta_threshold: 0.7          # Low beta stocks
+      
+      high_beta_sl_mult: 1.3           # Wider stops for high beta
+      low_beta_sl_mult: 0.8            # Tighter stops for low beta
+      
+      high_beta_target_mult: 1.4       # Higher targets for high beta
+      low_beta_target_mult: 0.8        # Lower targets for low beta
+    
+    # Divergence detection
+    divergence:
+      divergence_lookback: 20          # Periods to look back
+      divergence_threshold: 0.15       # 15% threshold for significant divergence
+    
+    # Correlation stability requirements
+    stability:
+      correlation_stability_threshold: 0.2  # Max acceptable correlation change
+      min_correlation_confidence: 0.6       # Minimum confidence in correlation
+
+  # Market Detector Configuration
+  market_detector:
+    # Index symbols
+    indices:
+      nifty_symbol: "^NSEI"
+      banknifty_symbol: "^NSEBANK"
+      # vix_symbol: "^NSEXI"
+    
+    # Gap detection thresholds
+    gap_thresholds:
+      small_gap: 0.5                   # 0.5%
+      medium_gap: 1.0                  # 1%
+      large_gap: 2.0                   # 2%
+    
+    # Analysis periods
+    analysis_periods:
+      momentum_period: 14
+      volatility_period: 20
+      lookback_days: 60
+    
+    # Update frequencies (seconds)
+    update_frequencies:
+      market_state_update: 300         # 5 minutes
+      correlation_update: 600          # 10 minutes
+      volatility_update: 600           # 10 minutes
+      vix_update: 1800                 # 30 minutes

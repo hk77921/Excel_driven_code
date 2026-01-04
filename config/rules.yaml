@@ -1,0 +1,26 @@
+# SCREENER RULES
+# All screener rules for stock filtering.
+
+screening:
+  # Volatility filters (adjusted for mid-cap stocks)
+  min_atr_pct: 1.5    # Reduced from 2.0
+  max_atr_pct: 6.0    # Increased from 5.0
+  
+  # Trend filters (relaxed)
+  min_adx: 15.0       # Reduced from 20.0
+  
+  # Volume filters (relaxed for broader universe)
+  min_adtv_cr: 2.0    # Reduced from 5.0
+  min_vol_ratio: 0.8  # Reduced from 1.0
+  
+  # Price filters
+  max_ema50_distance_pct: 5.0
+  price_ema20_range_pct: 3.0
+
+trading_rules:
+  max_trades_per_day: 5
+  rel_strength_lookback: 30
+  trend_required: BULLISH
+  require_atr_contraction: false
+  require_adx_rising: false
+  require_rel_strength: false

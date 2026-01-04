@@ -1,0 +1,62 @@
+{
+  "ORD_HINDALCO_1767438568136": {
+    "order_id": "ORD_HINDALCO_1767438568136",
+    "symbol": "HINDALCO",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 925.7000122070312,
+    "created_at": "2026-01-03T16:39:28.136098",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 17.2317671023836,
+    "sector": "METAL"
+  },
+  "ORD_COALINDIA_1767438568523": {
+    "order_id": "ORD_COALINDIA_1767438568523",
+    "symbol": "COALINDIA",
+    "side": "BUY",
+    "req_qty": 5,
+    "price": 427.8999938964844,
+    "created_at": "2026-01-03T16:39:28.523510",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 7.32809727652978,
+    "sector": "ENERGY"
+  },
+  "ORD_INDUSTOWER_1767438569181": {
+    "order_id": "ORD_INDUSTOWER_1767438569181",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 2,
+    "price": 442.04998779296875,
+    "created_at": "2026-01-03T16:39:29.181498",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 10.757385079341775,
+    "sector": "TELECOM"
+  },
+  "ORD_SAREGAMA_1767438570223": {
+    "order_id": "ORD_SAREGAMA_1767438570223",
+    "symbol": "SAREGAMA",
+    "side": "BUY",
+    "req_qty": 2,
+    "price": 357.95001220703125,
+    "created_at": "2026-01-03T16:39:30.223283",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 12.155699826192926,
+    "sector": "TELECOM"
+  }
+}

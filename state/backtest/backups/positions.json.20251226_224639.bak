@@ -1,0 +1,15 @@
+{
+  "KOTAKBANK": {
+    "symbol": "KOTAKBANK",
+    "side": "BUY",
+    "entry_price": 1821.1519775390625,
+    "quantity": 21,
+    "qty_remaining": 0,
+    "atr": 47.59289685108623,
+    "stop_loss": 1725.96618383689,
+    "target": 1963.9306680923212,
+    "entry_time": "2025-12-26T22:46:38.832424",
+    "partial_exit_done": false,
+    "status": "CLOSED"
+  }
+}

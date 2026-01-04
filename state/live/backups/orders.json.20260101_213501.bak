@@ -1,0 +1,41 @@
+{
+  "260101170618193": {
+    "order_id": "260101170618193",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "filled_qty": 0,
+    "price": 0,
+    "status": "OPEN"
+  },
+  "ORD_INDUSTOWER_1767246414674": {
+    "order_id": "ORD_INDUSTOWER_1767246414674",
+    "symbol": "INDUSTOWER",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 418.75,
+    "created_at": "2026-01-01T11:16:54.674398",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 9.730565952101838,
+    "sector": "TELECOM"
+  },
+  "ORD_SHOPERSTOP_1767258527415": {
+    "order_id": "ORD_SHOPERSTOP_1767258527415",
+    "symbol": "SHOPERSTOP",
+    "side": "BUY",
+    "req_qty": 1,
+    "price": 384.8999938964844,
+    "created_at": "2026-01-01T14:38:47.415251",
+    "status": "PENDING",
+    "filled_qty": 0,
+    "filled_price": 0.0,
+    "rejection_reason": null,
+    "updated_at": null,
+    "atr": 16.572320919949224,
+    "sector": "AUTO"
+  }
+}

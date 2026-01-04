@@ -1,0 +1,39 @@
+# ENVIRONMENT CONFIGURATION
+# =========================
+# Environment-specific settings that control application behavior
+# across different deployment environments (development/testing/production)
+
+environment:
+  # Execution mode - controls whether trades are simulated or real
+  execution_mode: "PAPER"  # PAPER (simulated) | LIVE (real money) | BACKTEST (historical)
+  
+  # Environment type - affects logging, validation, and safety checks
+  environment: "development"  # development | testing | production
+  
+  # Debug mode - enables additional logging and validation
+  debug_mode: false
+  
+  # File paths configuration - centralized path management
+  excel_file: "MiniRobo.xlsx"
+  data_directory: "data"
+  logs_directory: "logs"
+  state_directory: "state"  
+  cache_directory: "screener_cache"
+  
+  # Application metadata
+  app_name: "Excel Driven Trading Bot"
+  app_version: "2.0.0"
+  
+  # Feature toggles - enable/disable features by environment
+  features:
+    timing_intelligence: true
+    adaptive_strategies: true
+    dynamic_universe: true
+    performance_monitoring: true
+    hot_reload_config: false  # Only enable in development
+    
+  # Safety settings
+  safety:
+    require_confirmation_live_mode: true
+    max_startup_validation_errors: 3
+    enable_circuit_breakers: true
